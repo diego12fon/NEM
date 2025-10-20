@@ -410,6 +410,8 @@ button {
 }
 
 .card-estadisticas{
+    width: 100%;
+    justify-content: center;
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
@@ -528,6 +530,84 @@ h1 {
 }
 
 
+.presupuesto{
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.presupuesto .signo-money{
+    font-size: 80px;
+    font-weight: 500;
+}
+
+.presupuesto h2{
+    font-size: 32px;
+    color: #222222;
+}
+
+.valores{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.item-desarrollo{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #55555538;
+    padding: 24px;
+    border-radius: 10px;
+    gap: 10px;
+}
+
+.item-desarrollo .titulo-item{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.titulo-item p{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.item-desarrollo .part{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.part .descripcion{
+    font-size: 12px;
+    color: #555555;
+}
+
+.part .costo{
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.sub-total{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sub-total .tex-total{
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.sub-total .total{
+    font-size: 20px;
+    font-weight: 600;
+    color: #3a4f96;
+    margin-top: 6px;
+}
 
 
 
